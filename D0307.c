@@ -2,16 +2,11 @@
 #include <stdlib.h>
 
 int main() {
-    printf("Hello World!\n");
-    
-    printf("%c\n", "abc");
-    printf("%d\n", 123);
-    printf("%f\n", 123.456);
-    char str[3];
-    str[0] = "a";
-    str[1] = "b";
-    str[2] = "c"; 
+    int a = 0;
 
+    a += 1;
+
+    printf("%d", a++);
 
     return 0;
 }
