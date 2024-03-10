@@ -1,11 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "test.h"
 
 int main() {
-    char str[13];
-
-    scanf("%s", str);
-
-    printf("%s\n", str);
+    printf("%d", add(10, 15));
     return 0;
 }
