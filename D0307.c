@@ -16,5 +16,7 @@ int main() {
             printf("000");
             break;
     }
+
+    printf("%d", a > 10 ? a : -10);
     return 0;
 }
