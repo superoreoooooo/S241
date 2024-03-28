@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+#define TRATE 0.045
+
 void getTotal(double *total, double hour, int pay) {
     *total = (hour * pay);
 }
@@ -13,6 +15,6 @@ int main() {
 
     getTotal(&total, hour, pay);
 
-    printf("tax : %f", total * 0.045);
+    printf("total : %1f", total * (1 - TRATE));
     return 0;
 }
