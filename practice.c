@@ -5,11 +5,14 @@ void getTotal(double *total, double hour, int pay) {
 }
 
 int main() {
-    int pay = 10000;
-    double hour = 42.5;
+    int pay = 0;
+    double hour = 0;
     double total = 0;
+
+    scanf("%d %lf", &pay, &hour);
+
     getTotal(&total, hour, pay);
-    
-    printf("시급 %d, %.1f시간 일함\n총합 = %.0f", pay, hour, total);
+
+    printf("tax : %f", total * 0.045);
     return 0;
 }
