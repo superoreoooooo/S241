@@ -15,6 +15,6 @@ int main() {
 
     getTotal(&total, hour, pay);
 
-    printf("total : %1f", total * (1 - TRATE));
+    printf("total without tax : %1f", total * (1 - TRATE));
     return 0;
 }
