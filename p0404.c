@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#
 
 int p1();
 int p2();
@@ -27,14 +28,14 @@ int p1()
     {
     case 1: // 오류 1
         printf("돌고래 \n");
-        break; // 오류 2
-    case 2:    // 오류 3
+        //break; ??
+    case 2: // 오류 2
         printf("10종  \n");
         break;
     default:
         printf("입장권  \n");
-        return 0;
-    }
+    }       //오류 3 ?
+    return 0;
 }
 
 int p2()
