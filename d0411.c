@@ -11,11 +11,11 @@ void p1() {
     int num;
 
     do {
-        printf("Â¦¼ö ÀÔ·Â ¶§±îÁö ¹Ýº¹: ");
+        printf("Â¦ï¿½ï¿½ ï¿½Ô·ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ýºï¿½: ");
         scanf("%d", &num);
     } while (num % 2 != 0);
 
-    printf("%d´Â Â¦¼ö\n", num);
+    printf("%dï¿½ï¿½ Â¦ï¿½ï¿½\n", num);
 }
 
 void p2() {
@@ -123,17 +123,17 @@ void p6() {
     system("timeout 3 > NULL");
 
     int min, sec;
-    printf("ºÐ ÃÊ ÀÔ·Â: ");
+    printf("ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½: ");
     scanf("%d %d", &min, &sec);
-    for (; min >= 0; min--) { // for: ºÐ(min)À» °è»ê 
-        for (; sec >= 0; sec--) { // for: ÃÊ(sec)¸¦ °è»ê 
-            system("cls"); // È­¸é Áö¿ì±â
-            printf("%dºÐ : %dÃÊ\n", min, sec);
-            system("timeout 1 > NULL"); // 1ÃÊ ¸ØÃß±â
+    for (; min >= 0; min--) { // for: ï¿½ï¿½(min)ï¿½ï¿½ ï¿½ï¿½ï¿½ 
+        for (; sec >= 0; sec--) { // for: ï¿½ï¿½(sec)ï¿½ï¿½ ï¿½ï¿½ï¿½ 
+            system("cls"); // È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+            printf("%dï¿½ï¿½ : %dï¿½ï¿½\n", min, sec);
+            system("timeout 1 > NULL"); // 1ï¿½ï¿½ ï¿½ï¿½ï¿½ß±ï¿½
         }
-        sec = 59; // »õ·Î¿î 1ºÐ ½ÃÀÛ
+        sec = 59; // ï¿½ï¿½ï¿½Î¿ï¿½ 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
     } // End of for min
-    printf("±×¸¸ Æ¢°Ü!\n");
+    printf("ï¿½×¸ï¿½ Æ¢ï¿½ï¿½!\n");
 }
 
 void p7() {
@@ -150,19 +150,19 @@ void p7() {
         user = rand() % 10 + 1;
         com = rand() % 10 + 1;
 
-        printf("chip=%d you=%d ¹èÆÃ(0ÀºÆ÷±â): ", chip, user);
+        printf("chip=%d you=%d ï¿½ï¿½ï¿½ï¿½(0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½): ", chip, user);
         scanf("%d", &bet);
 
         if (bet == 0) {
-            printf("com=%d: ¹èÆÃ Æ÷±â! chip=%d\n", com, chip);
+            printf("com=%d: ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½! chip=%d\n", com, chip);
         }
         else if (user >= com) {
             chip += bet;
-            printf("com=%d: »ç¿ëÀÚ ½Â! chip=%d\n", com, chip);
+            printf("com=%d: ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½! chip=%d\n", com, chip);
         }
         else {
             chip -= bet;
-            printf("com=%d: ÄÄÇ»ÅÍ ½Â! chip=%d\n", com, chip);
+            printf("com=%d: ï¿½ï¿½Ç»ï¿½ï¿½ ï¿½ï¿½! chip=%d\n", com, chip);
         }
     }
 }
@@ -181,16 +181,16 @@ void p8() {
         user = rand() % 10 + 1;
         com = rand() % 10 + 1;
 
-        printf("chip=%d you=%d ¹èÆÃ(0ÀºÆ÷±â): ", chip, user);
+        printf("chip=%d you=%d ï¿½ï¿½ï¿½ï¿½(0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½): ", chip, user);
         scanf("%d", &bet);
 
         if (user >= com) {
             chip += bet;
-            printf("com=%d: »ç¿ëÀÚ ½Â! chip=%d\n", com, chip);
+            printf("com=%d: ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½! chip=%d\n", com, chip);
         }
         else {
             chip -= bet;
-            printf("com=%d: ÄÄÇ»ÅÍ ½Â! chip=%d\n", com, chip);
+            printf("com=%d: ï¿½ï¿½Ç»ï¿½ï¿½ ï¿½ï¿½! chip=%d\n", com, chip);
         }
         if (chip == 0 || chip == 30) {
             break;
@@ -206,19 +206,19 @@ void p9() {
 
     int min, sec;
     int limit, k;
-    printf("ºÐ ÃÊ ÀÔ·Â: ");
+    printf("ï¿½ï¿½ ï¿½ï¿½ ï¿½Ô·ï¿½: ");
     scanf("%d %d", &min, &sec);
     limit = 60 * min + sec;
     for (k = limit; k > 0; k--) {
-        system("timeout 1 > NULL"); // 1ÃÊ ¸ØÃß±â
-        system("cls"); // È­¸é Áö¿ì±â
-        printf("%dºÐ : %dÃÊ\n", min, sec--); // 1ÃÊ Áõ°¡ ÈÄ Ãâ·Â
+        system("timeout 1 > NULL"); // 1ï¿½ï¿½ ï¿½ï¿½ï¿½ß±ï¿½
+        system("cls"); // È­ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+        printf("%dï¿½ï¿½ : %dï¿½ï¿½\n", min, sec--); // 1ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½
         if (sec < 0) {
             min--;
             sec = 59;
         } // End of if
     } // End of for
-    printf("±×¸¸ Æ¢°Ü!");
+    printf("ï¿½×¸ï¿½ Æ¢ï¿½ï¿½!");
 }
 
 int main() {
