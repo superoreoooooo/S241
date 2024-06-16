@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oooow\\source\\repos\\S241Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74E20FD9-CE2D-4C4B-9934-A2974A63783D}|S241Final\\S241Final.vcxproj|C:\\Users\\oooow\\source\\repos\\S241Final\\S241Final\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{74E20FD9-CE2D-4C4B-9934-A2974A63783D}|S241Final\\S241Final.vcxproj|solutionrelative:S241Final\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 214,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\Users\\oooow\\source\\repos\\S241Final\\S241Final\\main.c",
+              "RelativeDocumentMoniker": "S241Final\\main.c",
+              "ToolTip": "C:\\Users\\oooow\\source\\repos\\S241Final\\S241Final\\main.c",
+              "RelativeToolTip": "S241Final\\main.c",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAWwFcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-16T07:43:58.353Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
